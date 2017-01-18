@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fenetre</class>
+ <widget class="QWidget" name="Fenetre">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>421</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Fenetre</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>661</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="global">
+    <item row="5" column="0">
+     <widget class="QLCDNumber" name="lcd_humiditee"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLCDNumber" name="lcd_temperature"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="bouton_temperature">
+      <property name="text">
+       <string>Temperature:</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="bouton_humiditee">
+      <property name="text">
+       <string>Humiditée</string>
+      </property>
+      <property name="flat">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
